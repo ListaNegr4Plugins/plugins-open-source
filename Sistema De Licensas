@@ -1,0 +1,12 @@
+#Licence Basic
+
+public onEnable() {
+if(getInstance().getConfig().getString("licencekey").equalsIgnoreCase("list4-9384-2834-2222") {
+   pl = this;
+   registerEvents();
+   registerCommandos();
+   Bukkit.getConsoleSender().sendMessage("§aPlugin Ativo e licenciado por: §f" + getInstance().getConfig().getString("comprador"));
+   {...}
+  }
+}
+#Uso totalmente liberado, simples porém eficaz.
