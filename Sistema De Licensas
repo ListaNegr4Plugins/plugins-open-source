@@ -8,5 +8,6 @@ if(getInstance().getConfig().getString("licencekey").equalsIgnoreCase("list4-938
    Bukkit.getConsoleSender().sendMessage("§aPlugin Ativo e licenciado por: §f" + getInstance().getConfig().getString("comprador"));
    {...}
   }
+  pl = null;
 }
 #Uso totalmente liberado, simples porém eficaz.
